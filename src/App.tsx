@@ -24,7 +24,7 @@ const App = () => (
         olsun sonuçta yapılan işlem değiş ve tokuş şeklindedir alım işlemi veya
         satış işlemi olması da bu base örneği değiştirmez. Kullanıcının
         cüzdanındaki nakiti veya banka hesabındaki parayı borsa içerisindeki
-        yatırım işleminden sonra kulkanıcının uygun göreceği ve borsanın
+        yatırım işleminden sonra kullanıcının uygun göreceği ve borsanın
         sağlayacağı tüm işlemler için uçtan uca geniş ve kapsamlı şekilde
         aşağıdaki adımları oluşturan bu mekanizmaya kısaca market maker botu
         diyebiliriz.{" "}
