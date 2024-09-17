@@ -1,4 +1,4 @@
-import { Row, Typography, Col, Card ,Image} from "antd";
+import { Row, Typography, Col, Card } from "antd";
 import step1 from "./assets/step1.jpeg";
 import step2 from "./assets/step2.jpeg";
 import step3 from "./assets/step3.jpeg";
@@ -12,9 +12,7 @@ const { Title, Paragraph } = Typography;
 
 const App = () => (
   <Row justify={"center"} gutter={[24, 36]}>
-    <Col span={20} >
-
-        
+    <Col span={20}>
       <Title style={{ textAlign: "center" }} level={1}>
         Exchange Market Maker
       </Title>
@@ -31,7 +29,6 @@ const App = () => (
         aşağıdaki adımları oluşturan bu mekanizmaya kısaca market maker botu
         diyebiliriz.{" "}
       </Paragraph>
-
     </Col>
 
     <Col sm={12} md={8} xxl={6}>
@@ -114,23 +111,29 @@ const App = () => (
 
     <Col sm={12} md={8} xxl={6}>
       <Card hoverable cover={<img alt="step5" src={step5} />}>
-        <Meta title="Stake" description="Kullanıcıların cüzdanlarında bulunan ve stake gibi kar getirisi 
+        <Meta
+          title="Stake"
+          description="Kullanıcıların cüzdanlarında bulunan ve stake gibi kar getirisi 
         olan işlemlerde kullanabileceği bakiyeler borsanın kendi içerisinde likidite oluşturmasını sağlar. 
         Burada amaç belirli bir süreli veya belirsiz süreli olarak kullanıcının bakiyesini borsanın kilitlemesine 
         izin vermesiyle başlar. Bu noktada mevcut piyasa koşulları borsanın belirlediği risk oranları kontratlardan 
         gelen miktarlar ve komisyon oranları likidite edilecek miktarın getirisin belirlenmesinde yardımcı olur. Stabil 
         bir dönemde Cardano için 2 aylık kilitli stake %6 getiri sağlarken volatil ve piyasanın yükseldiği bir dönem 
         için %13-14'lere çıkabilir. Sadece stake değil farklı borsalarda birçok yatırım aracı ve bu yatırım araçları 
-        sayesinde kullanıcıların bakiyelerinin pasif kalmaması amaçlanmıştır." />
+        sayesinde kullanıcıların bakiyelerinin pasif kalmaması amaçlanmıştır."
+        />
       </Card>
     </Col>
 
     <Col sm={12} md={8} xxl={6}>
       <Card hoverable cover={<img alt="step6" src={step6} />}>
-        <Meta title="Çekim" description="Kullanıcı borsa içerisine bakiye yatırabildiği gibi aynı şekilde istediği 
+        <Meta
+          title="Çekim"
+          description="Kullanıcı borsa içerisine bakiye yatırabildiği gibi aynı şekilde istediği 
         zamanda da çekebilmek suretiyle çekim işlemi gerçekleştirebilir. Burada önemli noktalardan birisi para yatırma 
         ve çekme anında gerçekleşen işlemler haricinde geriye kalan tüm işlemler dijital ve bunun karşılığını oluşturan 
-        mekanizma market maker dediğimiz tüm bu prosesleri düzenleyen borsa yapıcı bot." />
+        mekanizma market maker dediğimiz tüm bu prosesleri düzenleyen borsa yapıcı bot."
+        />
       </Card>
     </Col>
   </Row>
